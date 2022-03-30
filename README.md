@@ -18,6 +18,11 @@ Sciter官方推荐是将动态库直接安装到php可执行路径中即可。�
 
 Mac 下面需要将sciter-osx-64.dylib 拷贝到 /usr/local/lib/sciter-osx-64.dylib，或者拷贝到php同级目录下
 
+### Termux 下编译:
+```
+pkg install build-essential gtk3 xorgproto
+```
+
 ### Ubuntu 16.04下面手工编译
 ```
 apt-get install build-essential pkg-config
