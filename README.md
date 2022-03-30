@@ -20,7 +20,7 @@ Mac 下面需要将sciter-osx-64.dylib 拷贝到 /usr/local/lib/sciter-osx-64.dy
 
 ### Termux 下编译:
 ```
-pkg install build-essential gtk3 xorgproto
+pkg install build-essential gtk3 xorgproto binutils
 ```
 
 ### Ubuntu 16.04下面手工编译
